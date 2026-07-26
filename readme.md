@@ -14,13 +14,13 @@ This repository contains my journey of learning **Three.js** by building small e
 ### Prerequisites
 
 - Node.js (v18+ recommended)
-- npm, pnpm, or yarn
+- npm
 
 ### Installation
 
 ```bash
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/Bishal-J/threejs-learning.git
+cd threejs-learning
 npm install
 ```
 
@@ -57,7 +57,6 @@ npm run preview
 ├── package.json
 ├── tsconfig.json
 ├── vite.config.ts
-└── tailwind.config.js
 ```
 
 ## Learning Goals
