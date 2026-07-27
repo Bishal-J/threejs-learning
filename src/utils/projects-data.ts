@@ -66,6 +66,18 @@ export const projects: Project[] = [
     description: `Learned how to create 3D text in Three.js using custom fonts and TextGeometry. Explored beveling, centering geometry, matcap materials, and built a scene with randomly placed 3D torus objects.`,
     link: "/src/page/tenth.html",
   },
+  {
+    lesson: 11,
+    title: "Understanding Lights",
+    description: `Learned how to use different Three.js lights, including Ambient, Directional, Hemisphere, Point, Spot, and Rect Area lights, and explored light helpers to visualize and debug light positions, directions, and behavior within a 3D scene.`,
+    link: "/src/page/eleven.html",
+  },
+  {
+    lesson: 12,
+    title: "Understanding Shadows",
+    description: ``,
+    link: "/src/page/twelve.html",
+  },
 ];
 
 // {
