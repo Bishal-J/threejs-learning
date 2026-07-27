@@ -75,7 +75,7 @@ export const projects: Project[] = [
   {
     lesson: 12,
     title: "Understanding Shadows",
-    description: ``,
+    description: `Learned how to use Three.js shadows, including shadow cameras and Camera Helpers, optimized shadow quality with map size and camera settings, and compared real-time shadows with baked shadows for better rendering performance and visual quality.`,
     link: "/src/page/twelve.html",
   },
 ];
