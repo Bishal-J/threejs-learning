@@ -370,7 +370,6 @@ controls.enableDamping = true;
 controls.enablePan = false;
 controls.maxDistance = 10;
 controls.minDistance = 4;
-// controls.enableZoom = false;
 controls.maxPolarAngle = Math.PI * 0.45;
 
 const timer = new THREE.Timer();
@@ -409,6 +408,10 @@ const animate = (): void => {
       Math.sin(ghost3Angle * 3.14),
   );
   ghost3.position.z = Math.sin(ghost3Angle) * 6;
+
+  // Flickering House Light
+  doorLight.intensity =
+    4.5 + Math.sin(elapsedTime * 25) * 0.3 + (Math.random() - 0.5) * 0.4;
 
   controls.update();
 

@@ -81,8 +81,14 @@ export const projects: Project[] = [
   {
     lesson: 13,
     title: "Haunted House",
-    description: ``,
+    description: `Built a haunted house scene in Three.js using basic geometries, PBR textures, dynamic lighting, shadows, fog, and animated ghost lights. Combined materials, environment effects, and lighting to create a spooky, immersive atmosphere.`,
     link: "/src/page/thirteen.html",
+  },
+  {
+    lesson: 14,
+    title: "Understanding Particles",
+    description: ``,
+    link: "/src/page/fourteen.html",
   },
 ];
 
