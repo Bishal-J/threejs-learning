@@ -12,7 +12,7 @@ const scene = new THREE.Scene();
 // ==== Texture, Loading Manager, UV unwrapping
 const manager = new THREE.LoadingManager();
 
-const loader = new THREE.TextureLoader(manager);
+// const loader = new THREE.TextureLoader(manager);
 const cubeTextureLoader = new THREE.CubeTextureLoader(manager);
 // const colorTexture = loader.load("/textures/door/color.jpg");
 // const alphaTexture = loader.load("/textures/door/alpha.jpg");
@@ -169,7 +169,7 @@ timer.connect(document);
 const animate = (): void => {
   window.requestAnimationFrame(animate);
 
-  const elapsedTime = timer.getElapsed();
+  // const elapsedTime = timer.getElapsed();
   timer.update();
 
   // Update objects
