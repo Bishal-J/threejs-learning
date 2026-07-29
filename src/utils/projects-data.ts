@@ -87,8 +87,14 @@ export const projects: Project[] = [
   {
     lesson: 14,
     title: "Understanding Particles",
-    description: ``,
+    description: `Learned how to create and animate particles in Three.js using BufferGeometry and PointsMaterial. Explored custom particle positions, vertex colors, textures, additive blending, and real-time animation to build dynamic, interactive particle effects.`,
     link: "./src/pages/fourteen.html",
+  },
+  {
+    lesson: 15,
+    title: "Galaxy Generator",
+    description: `Learned how to create a procedural galaxy generator in Three.js with Points and BufferGeometry. Explored generating thousands of particles, positioning them with mathematical formulas, adding randomness, applying color gradients, and creating an interactive system to control galaxy parameters in real time.`,
+    link: "/src/pages/fifteen.html",
   },
 ];
 
