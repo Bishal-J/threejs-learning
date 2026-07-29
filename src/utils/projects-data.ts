@@ -87,7 +87,7 @@ export const projects: Project[] = [
   {
     lesson: 14,
     title: "Understanding Particles",
-    description: ``,
+    description: `Learned how to create and animate particles in Three.js using BufferGeometry and PointsMaterial. Explored custom particle positions, vertex colors, textures, additive blending, and real-time animation to build dynamic, interactive particle effects.`,
     link: "./src/pages/fourteen.html",
   },
 ];
