@@ -134,8 +134,6 @@ window.addEventListener("scroll", () => {
       z: "+=1.5",
     });
   }
-
-  console.log(newSection);
 });
 
 // Cursor

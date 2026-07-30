@@ -103,7 +103,7 @@ export const projects: Project[] = [
   {
     lesson: 16,
     title: "Scroll Based Animation",
-    description: ``,
+    description: `Learned how to create a scroll-based animation experience, exploring basic geometries, materials, and particle systems. Learned how to combine camera movement, parallax effects, and GSAP-powered scroll animations to create smooth, interactive 3D scenes.`,
     link: "/src/pages/16-scroll-based-animation.html",
     featured: true,
   },
