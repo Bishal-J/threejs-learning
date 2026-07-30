@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="en" class="bg-[#121a20]">
   <head>
     <meta charset="UTF-8" />
     <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
@@ -15,7 +15,24 @@
     >
       🏡
     </button>
-    <canvas id="webgl"></canvas>
+
+    <section
+      class="flex items-center h-screen relative text-[#ffeded] uppercase text-6xl px-24 font-black z-10"
+    >
+      <h1>Scroll</h1>
+    </section>
+    <section
+      class="flex items-center justify-end h-screen relative text-[#ffeded] uppercase text-6xl px-24 font-black z-10"
+    >
+      <h2>Keep Scrolling</h2>
+    </section>
+    <section
+      class="flex items-center h-screen relative text-[#ffeded] uppercase text-6xl px-24 font-black z-10"
+    >
+      <h2>The End</h2>
+    </section>
+
+    <canvas id="webgl" class="fixed top-0 left-0 outline-none"></canvas>
     <script
       type="module"
       src="/src/services/16-scroll-based-animation.ts"

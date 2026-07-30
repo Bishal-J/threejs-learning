@@ -3,6 +3,7 @@ export type Project = {
   description: string;
   link: string;
   lesson: number;
+  featured?: boolean;
 };
 
 export const projects: Project[] = [
@@ -35,6 +36,7 @@ export const projects: Project[] = [
     title: "Full Screen And Resizing",
     description: `Learned how to make a Three.js scene responsive by handling window resizing, updating the camera and renderer, managing pixel ratios for better performance, and adding a double-click fullscreen toggle for an improved viewing experience.`,
     link: "./src/pages/05-full-screen-resizing.html",
+    featured: true,
   },
   {
     lesson: 6,
@@ -83,6 +85,7 @@ export const projects: Project[] = [
     title: "Haunted House",
     description: `Built a haunted house scene in Three.js using basic geometries, PBR textures, dynamic lighting, shadows, fog, and animated ghost lights. Combined materials, environment effects, and lighting to create a spooky, immersive atmosphere.`,
     link: "./src/pages/13-haunted-house.html",
+    featured: true,
   },
   {
     lesson: 14,
@@ -95,12 +98,14 @@ export const projects: Project[] = [
     title: "Galaxy Generator",
     description: `Learned how to create a procedural galaxy generator in Three.js with Points and BufferGeometry. Explored generating thousands of particles, positioning them with mathematical formulas, adding randomness, applying color gradients, and creating an interactive system to control galaxy parameters in real time.`,
     link: "/src/pages/15-galaxy-generator.html",
+    featured: true,
   },
   {
     lesson: 16,
     title: "Scroll Based Animation",
     description: ``,
     link: "/src/pages/16-scroll-based-animation.html",
+    featured: true,
   },
 ];
 
