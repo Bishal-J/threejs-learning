@@ -107,6 +107,12 @@ export const projects: Project[] = [
     link: "/src/pages/16-scroll-based-animation.html",
     featured: true,
   },
+  {
+    lesson: 17,
+    title: "Understanding Physics",
+    description: `Built an interactive physics simulation using Cannon.js with Three.js to explore real-world physics concepts such as gravity, collisions, friction, restitution, and rigid body dynamics. Implemented realistic object interactions, collision sounds, and synchronized physics bodies with 3D rendering.`,
+    link: "/src/pages/17-understanding-physics.html",
+  },
 ];
 
 // {
