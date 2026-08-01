@@ -3,6 +3,7 @@ import { projects } from "./utils/projects-data";
 const container = document.getElementById("projects") as HTMLElement;
 
 container.innerHTML = projects
+  .reverse()
   .map(
     (project) => `
       <article
