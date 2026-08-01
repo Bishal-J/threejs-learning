@@ -113,6 +113,13 @@ export const projects: Project[] = [
     description: `Built an interactive physics simulation using Cannon.js with Three.js to explore real-world physics concepts such as gravity, collisions, friction, restitution, and rigid body dynamics. Implemented realistic object interactions, collision sounds, and synchronized physics bodies with 3D rendering.`,
     link: "/src/pages/17-understanding-physics.html",
   },
+  {
+    lesson: 18,
+    title: "Importing Models",
+    description: `Learned how to import and render 3D models in Three.js using multiple file formats, including GLTF, GLB (binary), and Draco-compressed assets. Gained experience loading models, applying textures and materials, and integrating them into interactive 3D scenes.`,
+    link: "/src/pages/18-importing-models.html",
+    featured: true,
+  },
 ];
 
 // {
