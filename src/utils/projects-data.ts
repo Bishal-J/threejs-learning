@@ -120,6 +120,18 @@ export const projects: Project[] = [
     link: "/src/pages/18-importing-models.html",
     featured: true,
   },
+  {
+    lesson: 19,
+    title: "Understanding Raycasters",
+    description: `Learned about raycasting in Three.js, including detecting intersections, tracking mouse movement, hovering over 3D objects, and handling click interactions with different meshes.`,
+    link: "/src/pages/19-understanding-raycasters.html",
+  },
+  {
+    lesson: 20,
+    title: "Understanding Blender",
+    description: `Learned the basics of Blender by creating a detailed 3D burger model, then exported and imported it into Three.js using GLB and Draco compression to display it in a real-time 3D scene.`,
+    link: "/src/pages/20-understanding-blender.html",
+  },
 ];
 
 // {
