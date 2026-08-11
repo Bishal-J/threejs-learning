@@ -132,6 +132,12 @@ export const projects: Project[] = [
     description: `Learned the basics of Blender by creating a detailed 3D burger model, then exported and imported it into Three.js using GLB and Draco compression to display it in a real-time 3D scene.`,
     link: "/src/pages/20-understanding-blender.html",
   },
+  {
+    lesson: 21,
+    title: "Realistic Rendering",
+    description: `Learned the fundamentals of realistic rendering in Three.js, including tone mapping, environment lighting, shadows, anti-aliasing, and material properties. I also explored how lighting, exposure, and color management work together to create more realistic and visually appealing 3D scenes.`,
+    link: "/src/pages/21-realistic-rendering.html",
+  },
 ];
 
 // {
